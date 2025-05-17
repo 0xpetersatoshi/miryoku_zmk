@@ -1,6 +1,8 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+#define MIRYOKU_KLUDGE_MOUSEKEYSPR
+
 #define MIRYOKU_LAYER_BASE \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, SQT),   \
